@@ -52,12 +52,11 @@ const Dashboard = () => {
  
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(formData);
     closeModal();
   };
 
   const mergedProducts = [...products, formData];
-  console.log("mergedProducts", mergedProducts);
+  
  
 
   return (
